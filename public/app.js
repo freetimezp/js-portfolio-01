@@ -19,8 +19,8 @@ function pageTransitions() {
             sectBtns.forEach((btn) => {
                 btn.classList.remove('active');
             });
-
             e.target.classList.add('active');
+
             sections.forEach((section) => {
                 section.classList.remove('active');
             });

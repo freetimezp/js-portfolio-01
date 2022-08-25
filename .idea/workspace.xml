@@ -71,7 +71,7 @@
       <updated>1661356536361</updated>
       <workItem from="1661356537519" duration="2049000" />
       <workItem from="1661366275845" duration="3848000" />
-      <workItem from="1661430504117" duration="1793000" />
+      <workItem from="1661430504117" duration="6673000" />
     </task>
     <servers />
   </component>
@@ -103,5 +103,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" width="1550" height="1027" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1661365090790" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1661434386865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1661434386865" />
   </component>
 </project>
