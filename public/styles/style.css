@@ -588,6 +588,85 @@ section {
     text-align: center;
 }
 
+.blogs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.blogs-container .blog {
+    position: relative;
+    background-color: var(--color-grey-5);
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+}
+
+.blogs-container .blog:hover {
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.3);
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
+}
+
+.blogs-container .blog img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(0.5);
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px 5px 0 0;
+}
+
+.blog .blog-text {
+    margin-top: -7px;
+    padding: 1.1rem;
+    border-top: 8px solid var(--color-secondary);
+}
+
+.blog .blog-text h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.7rem;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.blog .blog-text p {
+    color: var(--color-grey-2);
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.blog .blog-text h4:hover {
+    color: var(--color-secondary);
+}
+
+.blogs-container .blog:hover img {
+    filter: grayscale(0);
+    transform: scale(1.06);
+    box-shadow: 1px 4px 20px rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
